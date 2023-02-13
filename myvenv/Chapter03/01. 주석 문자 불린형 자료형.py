@@ -12,16 +12,20 @@ print(5)
 print(4,5)
 
 #소수점이없는 수 정수형:
-print(1.4 ,3.4 ,4.5)
+print(1.4 ,3.4 ,4.5, sep="")
 
 #- 문자열 자료형
 
 # "" or ''
 
-print("파이썬 너무 재밌다")
+print("파이썬 너무 재밌다",end="")
 print('파이썬 정말 재밌자너! ')
 print('"개 짖는 소리 좀 안나게 해라"라고 그는 외쳤다. ')
 
 # true or false 
 print(True)
 print(False)
+
+
+#sep end 
+#print함수 속성 
